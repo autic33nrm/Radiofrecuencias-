@@ -1,0 +1,219 @@
+/* Estilos para la barra de navegación */
+body {
+    background-color: #343a40;
+    /* Fondo oscuro */
+}
+
+nav {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+    padding: 15px;
+    /* Espaciado interno */
+}
+
+a {
+    color: #ffffff;
+    /* Enlaces blancos */
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+#offcanvasNavbar {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+#offcanvasNavbar h4 {
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+#offcanvasNavbar ul {
+    list-style: none;
+    /* Quitar viñetas */
+    padding: 0;
+    /* Eliminar el relleno */
+}
+
+#offcanvasNavbar li {
+    margin-bottom: 10px;
+    /* Espaciado entre elementos de la lista */
+}
+
+.botoneSinSesion,
+.botonesConSesion {
+    color: #ffffff;
+    /* Texto blanco */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+    /* Efecto de transición en el color de fondo */
+}
+
+.botoneSinSesion:hover,
+.botonesConSesion:hover {
+    background-color: #495057;
+    /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilos para la lista de manualidades */
+.custom-container {
+    margin-top: 18rem;
+    /* Ajusta el valor según sea necesario */
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+    padding: 20px;
+    /* Añade un relleno para mejorar la apariencia */
+}
+
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-col {
+    flex: 0 0 100%;
+    /* Ancho completo en todas las pantallas */
+    max-width: 100%;
+}
+
+.custom-list-group {
+    list-style: none;
+    /* Quitar viñetas */
+    padding: 0;
+    /* Eliminar relleno */
+}
+
+.custom-list-group-item {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+    margin-bottom: 1rem;
+    /* Espaciado inferior */
+    border: 1px solid #dee2e6;
+    /* Borde gris */
+    padding: 1rem;
+    /* Espaciado interno */
+}
+
+.custom-list-group-item h5 {
+    margin-bottom: 0.5rem;
+    /* Espaciado inferior para el título */
+}
+
+.custom-list-group-item p {
+    margin-bottom: 0.25rem;
+    /* Espaciado inferior para los párrafos */
+}
+
+.custom-list-group-item button {
+    width: 100%;
+    /* Ancho completo del botón */
+}
+
+.custom-list-group-item button.Eliminar-Manualidad {
+    background-color: #ffc107;
+    /* Fondo amarillo */
+    color: #212529;
+    /* Texto oscuro */
+}
+
+.custom-list-group-item button.Actualizar-Manualidad {
+    background-color: #28a745;
+    /* Fondo verde */
+    color: #ffffff;
+    /* Texto blanco */
+}
+
+.custom-list-group-item button:hover {
+    opacity: 0.8;
+    /* Reducción de opacidad al pasar el ratón */
+}
+
+/* Estilos para el formulario de registro de manualidades */
+#manualidad-form-container {
+    background-color: #343a40;
+    /* Fondo oscuro */
+    color: #ffffff;
+    /* Texto blanco */
+    padding: 20px;
+    /* Añade un relleno para mejorar la apariencia */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    margin-top: 20px;
+    /* Ajusta el margen superior según sea necesario */
+}
+
+.custom-form-label {
+    color: #ffffff;
+    /* Texto blanco */
+    font-size: 1.2rem;
+    /* Tamaño de fuente más grande */
+}
+
+.custom-form-control {
+    background-color: #343a40;
+    /* Fondo oscuro para inputs */
+    color: #ffffff;
+    /* Texto blanco */
+    border: 1px solid #dee2e6;
+    /* Borde gris */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    width: 100%;
+    /* Ancho completo */
+    padding: 10px;
+    /* Añade un poco de espacio interno */
+    font-size: 1rem;
+    /* Tamaño de fuente */
+}
+
+.custom-btn {
+    width: 100%;
+    /* Ancho completo del botón */
+    margin-top: 10px;
+    /* Espaciado superior */
+}
+
+.custom-btn-primary {
+    background-color: #007bff;
+    /* Fondo azul */
+    color: #ffffff;
+    /* Texto blanco */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 10px;
+    /* Añade un poco de espacio interno */
+    font-size: 1.2rem;
+    /* Tamaño de fuente más grande */
+}
+
+.custom-btn-primary:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el ratón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+
+    .custom-form-label,
+    .custom-form-control,
+    .custom-btn-primary {
+        font-size: 1rem;
+        /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+}
