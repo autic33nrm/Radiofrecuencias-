@@ -1,7 +1,9 @@
-/* Estilos para la barra de navegación */
+/* Estilos para la barra de navegación y el cuerpo */
 body {
-    background-color: #343a40;
-    /* Fondo oscuro */
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    color: #343a40;
+    /* Texto oscuro */
 }
 
 nav {
@@ -66,10 +68,10 @@ a {
 .custom-container {
     margin-top: 18rem;
     /* Ajusta el valor según sea necesario */
-    background-color: #343a40;
-    /* Fondo oscuro */
-    color: #ffffff;
-    /* Texto blanco */
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    color: #343a40;
+    /* Texto oscuro */
     padding: 20px;
     /* Añade un relleno para mejorar la apariencia */
 }
@@ -94,10 +96,10 @@ a {
 }
 
 .custom-list-group-item {
-    background-color: #343a40;
-    /* Fondo oscuro */
-    color: #ffffff;
-    /* Texto blanco */
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    color: #343a40;
+    /* Texto oscuro */
     margin-bottom: 1rem;
     /* Espaciado inferior */
     border: 1px solid #dee2e6;
@@ -142,10 +144,10 @@ a {
 
 /* Estilos para el formulario de registro de manualidades */
 #manualidad-form-container {
-    background-color: #343a40;
-    /* Fondo oscuro */
-    color: #ffffff;
-    /* Texto blanco */
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    color: #343a40;
+    /* Texto oscuro */
     padding: 20px;
     /* Añade un relleno para mejorar la apariencia */
     border-radius: 10px;
@@ -155,17 +157,17 @@ a {
 }
 
 .custom-form-label {
-    color: #ffffff;
-    /* Texto blanco */
+    color: #343a40;
+    /* Texto oscuro */
     font-size: 1.2rem;
     /* Tamaño de fuente más grande */
 }
 
 .custom-form-control {
-    background-color: #343a40;
-    /* Fondo oscuro para inputs */
-    color: #ffffff;
-    /* Texto blanco */
+    background-color: #f8f9fa;
+    /* Fondo claro para inputs */
+    color: #343a40;
+    /* Texto oscuro */
     border: 1px solid #dee2e6;
     /* Borde gris */
     border-radius: 5px;

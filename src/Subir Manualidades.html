@@ -11,17 +11,16 @@
     <!-- CSS PERSONALIZADO -->
     <link rel="stylesheet" href="style.css">
     <!-- El modulo Main contiene lo necesario para que el programa funcione -->
-    <script type="module" src="./mainManualidad.js"></script>
-    <title>Manualidades</title>
+    <script type="module" src="./mainRegistro.js"></script>
+    <title>REFRESCOS</title>
 </head>
 
 <body>
 
     <!-- Navbar con tema oscuro -->
-    <!-- Navbar con tema oscuro -->
     <nav class="fixed-top">
         <div>
-            <h1 href="#">Manualidades</h1>
+            <h1 href="#">REFRESCOS</h1>
             <div tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div>
                     <h4 id="offcanvasNavbarLabel">Opciones</h4>
@@ -38,11 +37,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="botonesConSesion" id="Mostrar-Manualidades"
-                                href="Subir Manualidades.html">REGISTRAR UNA MANUALIDAD</a>
+                                href="Subir Manualidades.html">REGISTRAR UN REFRESCO</a>
                         </li>
                         <li class="nav-item">
                             <a class="botonesConSesion" id="Mostrar-Manualidades" href="index.html">VER
-                                MANUALIDADES</a>
+                                REFRESCOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="botonesConSesion" id="CerrarSesion">CERRAR SESIÓN</a>
@@ -53,41 +52,35 @@
         </div>
 
         <!-- Contenido del cuerpo aquí -->
-        <!-- Formulario de Registro de Manualidades -->
+        <!-- Formulario de Registro de Refrescos -->
         <div id="manualidad-form-container" class="custom-container">
             <div class="custom-row">
-                <form id="Formulario-Manualidad" class="custom-col"> <!-- Ajusté el ancho a col-md-8 -->
+                <form id="Formulario-Refresco" class="custom-col"> <!-- Ajusté el ancho a col-md-8 -->
                     <div class="contenedor-datos">
-                        <label for="Nombre-Manualidad" class="custom-form-label">Nombre de la Manualidad:</label>
-                        <input type="text" class="custom-form-control" id="Nombre-Manualidad"
-                            placeholder="Nombre de la Manualidad">
+                        <label for="Nombre-Refresco" class="custom-form-label">Nombre del Refresco:</label>
+                        <input type="text" class="custom-form-control" id="Nombre-Refresco"
+                            placeholder="Nombre del Refresco">
                     </div>
                     <div class="contenedor-datos">
-                        <label for="Tipo-Manualidad" class="custom-form-label">Tipo de la Manualidad:</label>
-                        <input type="text" class="custom-form-control" id="Tipo-Manualidad"
-                            placeholder="Tipo de la Manualidad">
+                        <label for="Marca-Refresco" class="custom-form-label">Marca del Refresco:</label>
+                        <input type="text" class="custom-form-control" id="Marca-Refresco"
+                            placeholder="Marca del Refresco">
                     </div>
                     <div class="contenedor-datos">
-                        <label for="Materiales-Manualidad" class="custom-form-label">Materiales de la
-                            Manualidad:</label>
-                        <input type="text" class="custom-form-control" id="Materiales-Manualidad"
-                            placeholder="Materiales de la Manualidad">
+                        <label for="Fabricante-Refresco" class="custom-form-label">Fabricante del Refresco:</label>
+                        <input type="text" class="custom-form-control" id="Fabricante-Refresco"
+                            placeholder="Fabricante del Refresco">
                     </div>
                     <div class="contenedor-datos">
-                        <label for="Descripcion-Manualidad" class="custom-form-label">Descripción de la
-                            Manualidad:</label>
-                        <input type="text" class="custom-form-control" id="Descripcion-Manualidad"
-                            placeholder="Descripción de la Manualidad">
+                        <label for="FechaCaducidad-Refresco" class="custom-form-label">Fecha de Caducidad:</label>
+                        <input type="date" class="custom-form-control" id="FechaCaducidad-Refresco">
                     </div>
-                    <div class="contenedor-datos">
-                        <label for="FechaCreacion-Manualidad" class="custom-form-label">Fecha de Creación:</label>
-                        <input type="date" class="custom-form-control" id="FechaCreacion-Manualidad">
-                    </div>
-                    <button type="submit" class="custom-btn custom-btn-primary" id="Guardar-Manualidad">Guardar
-                        Manualidad</button>
+                    <button type="submit" class="custom-btn custom-btn-primary" id="Guardar-Refresco">Guardar
+                        Refresco</button>
                 </form>
             </div>
         </div>
+
 
         <!-- MODAL DE INICIO DE SESION -->
         <div class="modal fade" id="InicioSesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
